@@ -1828,7 +1828,7 @@ input, select, textarea {
 		#header h1 {
 			position: absolute;
 			left: 1em;
-			top: 0;
+			top: -10px;
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
@@ -2334,4 +2334,9 @@ input, select, textarea {
 		  /* When moving the mouse over the close button */
 		  .closebtn:hover {
 			color: black;
+		  }
+
+		  .logo-ws{
+				width: 160px;
+				padding-top: 20px;
 		  }
