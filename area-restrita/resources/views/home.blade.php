@@ -1,23 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.master')
+
+@section('title') Calendário @endsection
+@section('subtitle') Home @endsection
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
-        </div>
+<div class="panel panel-default">
+    <a href="#page-stats" class="panel-heading" data-toggle="collapse">Eventos do Mês</a>
+    <div id="page-stats" class="panel-collapse panel-body collapse in">
+        
     </div>
 </div>
 @endsection
