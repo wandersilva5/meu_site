@@ -7,6 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{{ asset('lib/bootstrap/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('lib/font-awesome/css/font-awesome.css')}}">
