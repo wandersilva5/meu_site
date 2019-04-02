@@ -1,7 +1,5 @@
 <footer>
     <hr>
-
-    <!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
-    <p class="pull-right">A <a href="http://www.portnine.com/bootstrap-themes" target="_blank">Free Bootstrap Theme</a> by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-    <p>© 2014 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+    <p class="pull-right"><a href="http://www.wandersilva.com.br" target="_blank">SGC</a> by <a href="http://www.portnine.com" target="_blank">Wander Silva</a></p>
+    <p>© 2014 <a href="http://www.wandersilva.com.br" target="_blank">Sistema de Gestão de Conteúdo</a></p>
 </footer>
